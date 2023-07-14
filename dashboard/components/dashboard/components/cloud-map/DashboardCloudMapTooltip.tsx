@@ -1,6 +1,6 @@
 import { memo } from 'react';
 import { DashboardCloudMapTooltipProps } from './hooks/useCloudMapTooltip';
-import LinkIcon from '../../../icons/LinkIcon';
+
 
 type DashboardCloudMapProps = {
   tooltip: DashboardCloudMapTooltipProps | undefined;
@@ -44,7 +44,7 @@ function DashboardCloudMap({
           </span>
           <div className="-mx-3 flex items-center gap-2 border-t border-white/30 px-3 pb-1 pt-2">
             <span className="text-white">Click to discover the resources</span>
-            <LinkIcon className="w-[20px]" />
+            
           </div>
         </div>
       )}
